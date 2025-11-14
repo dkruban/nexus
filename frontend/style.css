@@ -1,0 +1,74 @@
+/* All previous CSS is here... */
+
+/* --- NEW STYLES FOR TOOLS --- */
+.tool-section {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+.tool-section h2 {
+    font-family: var(--font-logo);
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input-group input {
+    flex-grow: 1;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    outline: none;
+}
+.input-group button {
+    padding: 15px 25px;
+    background: linear-gradient(45deg, var(--accent-color), #0099cc);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.input-group button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+}
+.results-box {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+.results-box.show {
+    max-height: 500px; /* Arbitrary large value */
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+.results-box strong {
+    color: var(--accent-color);
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 15px;
+    border: 2px solid var(--accent-color);
+}

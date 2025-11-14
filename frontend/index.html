@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus OSINT - The Digital Oracle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="universe"><div class="stars"></div><div class="stars2"></div><div class="stars3"></div></div>
+    <div class="cursor"></div><div class="cursor-follower"></div>
+    
+    <nav id="sidebar" class="sidebar">...</nav> <!-- Sidebar code is the same, omitted for brevity -->
+
+    <main id="main-content">
+        <div id="landing-view">
+            <header><h1>NEXU<span class="logo-x">X</span></h1></header>
+            
+            <!-- NEW: Instagram Tool Section -->
+            <div class="tool-section">
+                <h2>Instagram Profile Lookup</h2>
+                <div class="input-group">
+                    <input type="text" id="insta-username" placeholder="e.g., nasa">
+                    <button id="insta-search-btn">Analyze</button>
+                </div>
+                <div id="insta-results" class="results-box"></div>
+            </div>
+
+            <!-- NEW: Phone Number Tool Section -->
+            <div class="tool-section">
+                <h2>Phone Number OSINT</h2>
+                <div class="input-group">
+                    <input type="text" id="phone-number" placeholder="e.g., +14155552671">
+                    <button id="phone-search-btn">Analyze</button>
+                </div>
+                <div id="phone-results" class="results-box"></div>
+            </div>
+        </div>
+    </main>
+    <!-- SVG Icons are the same, omitted for brevity -->
+    <script src="script.js"></script>
+</body>
+</html>
