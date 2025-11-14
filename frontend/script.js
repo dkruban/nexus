@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- Configuration ---
     // IMPORTANT: Replace this with your Render backend URL after deployment
-    const BACKEND_URL = 'http://localhost:3001'; 
+    const BACKEND_URL = 'https://nexus-backend.onrender.com'; 
 
     // --- Custom Cursor & Sidebar (same as before) ---
     const cursor = document.querySelector('.cursor');
